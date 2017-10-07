@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.ActionBarContainer
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/action_bar"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/customtoolbar"
+            android:background="@color/colorAccent"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/back_button"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:id="@+id/action_bar_back"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/listing_design"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.v7.widget.ActionBarContainer>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center">
+       <ImageView
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:id="@+id/imageView"
+        android:visibility="invisible"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/choose_image"
+        android:id="@+id/button_pic_image"/>
+   </LinearLayout>
+
+</LinearLayout>

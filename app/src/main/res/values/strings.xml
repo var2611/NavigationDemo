@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Navigation Demo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="open_camera">Open camera</string>
+    <string name="open_gallery">Open Gallery</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="_9494944994">9494944994</string>
+    <string name="disha">Disha</string>
+    <string name="email">Email</string>
+    <string name="phone_no">phone no</string>
+    <string name="name">Name</string>
+    <string name="listing_design">Listing Design</string>
+    <string name="share">Share</string>
+</resources>

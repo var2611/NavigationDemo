@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.navigationdemo.MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.ActionBarContainer
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/action_bar"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/customtoolbar"
+            android:background="@color/colorAccent"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/back_button"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:id="@+id/action_bar_back"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/listing_design"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.v7.widget.ActionBarContainer>
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:id="@+id/recycle">
+
+    </android.support.v7.widget.RecyclerView>
+
+</android.support.v7.widget.CardView>
+
+
+
+
+
+</LinearLayout>
